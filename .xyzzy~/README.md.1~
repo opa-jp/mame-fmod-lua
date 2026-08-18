@@ -27,9 +27,9 @@ FMOD control from Lua has been confirmed to work, so this project is being relea
 
 ## Requirements
 
-Before using the Lua scripts in this repository, you must download and install an FMOD-enabled build of MAME.
+Only the minimum files required to run MAME are included in this repository.
 
-Please refer to [Installation.md](Installation.md) for details.
+If additional files are required for your setup, please obtain them from the **official MAME distribution/source**.
 
 This project does not include copyrighted ROMs or other game assets.
 

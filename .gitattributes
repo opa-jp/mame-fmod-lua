@@ -1,0 +1,2 @@
+mame.exe filter=lfs diff=lfs merge=lfs -text
+mame.sym filter=lfs diff=lfs merge=lfs -text
