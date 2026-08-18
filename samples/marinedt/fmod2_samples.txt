@@ -1,0 +1,8 @@
+[default]
+0x00 mt1.wav 1,0,100
+0x01 md.wav 0,1,100
+0x02 mc.wav 0,2,100
+0x03 mi.wav 0,3,100
+0x04 mf.wav 0,14,100
+0x05 mj.wav 0,25,100
+0x06 mt1.wav 1,0,100
