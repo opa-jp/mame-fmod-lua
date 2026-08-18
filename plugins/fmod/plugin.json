@@ -1,0 +1,9 @@
+{
+    "plugin": {
+        "name": "fmod",
+        "description": "FMOD Sound Replace",
+        "version": "0.1.9c",
+        "author": "OPA",
+        "type": "plugin"
+    }
+}

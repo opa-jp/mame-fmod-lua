@@ -1,0 +1,11 @@
+[system]
+motor		50
+
+#num	type    	LeftMotorSpeed, RightMotorSpeed, StopMSec
+[code]
+0x87	vibration	0xFFFF,0x0000,500			// Taking a hit
+0x89	vibration	0xBFFF,0xFFFF,500			// Falling down
+0xa0	vibration	0xDFFF,0xBFFF,80			// Added slight interpolation because the attack was weak with just the waveform vibration
+0xa2	vibration	0xBFFF,0xBFFF,300			//
+0xb6	vibration	0x0000,0xBFFF,300			//
+0xd0	vibration	0x0000,0xDFFF,300			//

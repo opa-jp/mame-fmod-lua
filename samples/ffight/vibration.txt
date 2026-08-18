@@ -1,0 +1,9 @@
+[system]
+motor	100	// モーターの出力調整 単位はパーセント
+reload	1	// MAMEのポーズ時にデータのリロードを行います
+
+[code]
+#num	type    	LeftMotorSpeed, RightMotorSpeed, StopMSec
+0x15	vibration	0x8FFF,0x5FFF,100	// 爆破
+0x18	vibration	0x6FFF,0x3FFF,100	// ドラム缶
+0x19	vibration	0x7FFF,0x2FFF,100	// ドラム缶転
