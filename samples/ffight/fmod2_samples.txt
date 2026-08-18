@@ -1,0 +1,291 @@
+[default]
+0xff data	0x80
+//0xf0 data	0x90
+0xf7 data	0xa0,0,1000
+0x03 0x03.ogg	0,7,240	// Hummn (Cody,Haggar)
+0x04 0x04.ogg	0,7,240	// Deyaah (Cody)
+0x1b 0x1b.ogg	0,7,240	// Deyaah (Cody)
+0x1c 0x1c.ogg	0,7,240	// Haah (Cody)
+0x20 0x20.ogg	0,7,240	// Wooahhah (Cody,Guy)
+0x23 0x23.ogg	0,7,240	// Uoohh (Cody)
+0x07 0x07.ogg	0,7,240	// Uraah (Haggar)
+0x08 0x08.ogg	0,7,240	// Deyaah (Haggar)
+0x09 0x09.ogg	0,7,240	// Yaah (Haggar)
+0x0a 0x0a.ogg	0,7,240	// Uhryaah (Haggar)
+0x0b 0x0b.ogg	0,7,240	// Tehyah (Haggar)
+0x1d 0x1d.ogg	0,7,240	// Uwaahoh (Haggar)
+0x21 0x21.ogg	0,7,240	// Gyuoh (Haggar)
+0x24 0x24.ogg	0,7,240	// Uhwahh (Haggar)
+0x05 0x05.ogg	0,7,240	// Eiyaah (Guy)
+0x0c 0x0c.ogg	0,7,240	// Haah (Guy)
+0x22 0x22.ogg	0,7,240	// Ahhh (Guy)
+0x29 0x29.ogg	0,8,240	// Heh (Andore,Bill Bull,Wong Who)
+0x2b 0x2b.ogg	0,8,240	// Kyaahah (Poison,Roxy)
+0x25 0x25.ogg	0,8,240	// Haaaahhhh (Abigail)
+0x28 0x28.ogg	0,8,240	// Ahhhahahaha (Damnd)
+0x2c 0x2c.ogg	0,6,240	// Uohh
+0x2d 0x2d.ogg	0,6,240	// Uhwaahh
+0x2e 0x2e.ogg	0,1,240	// Oh My God (Bred)
+0x3c 0x3c.ogg	0,1,240	// Oh aahhhhah (Jessica)
+0x3d 0x3d.ogg	0,1,240	// Huhahahaha (Belger)
+0x3e 0x3e.ogg	0,1,240	// Aahhhh (Belger)
+0x2a 0x2a.ogg	0,1,240	// ??? (Unused)
+0x5e 0x5e.ogg	0,4,220	// 1UP
+0x00 0x00.ogg	0,23,220	// 打撃
+0x01 0x01.ogg	0,23,220	// 膝
+0x02 0x02.ogg	0,23,220	// 蹴り
+0x06 0x06.ogg	0,22,220	// ダメージ
+0x0d 0x0d.ogg	0,22,220	// ダウン
+0x0e 0x0e.ogg	0,23,220	// ナイフ
+0x0f 0x0f.ogg	0,23,220	// 跳ね返り
+0x10 0x10.ogg	0,22,220	// 斬りダメージ
+0x11 0x11.ogg	0,21,220	// 防御
+0x12 0x12.ogg	0,24,220	// 銃声
+0x13 0x13.ogg	0,24,220	// マシンガン
+0x14 0x14.ogg	0,21,220	// クラッシュ
+0x15 0x15.ogg	0,25,220	// 爆破
+0x16 0x16.ogg	0,16,220	// ガラス
+0x17 0x17.ogg	0,25,220	// 木箱
+0x18 0x18.ogg	0,25,220	// ドラム缶
+0x19 0x19.ogg	4,20,220	// ドラム缶転
+0x1e 0x1e.ogg	0,1,220	// ヒャウ
+0x1f 0x1f.ogg	0,23,220	// パイプ
+0x26 0x26.ogg	0,28,220	// 突進
+0x27 0x27.ogg	0,1,220	// 指笛
+0x2f 0x2f.ogg	0,13,220	// 空パンチ
+0x38 0x38.ogg	0,3,220	// カウントダウン
+0x39 0x39.ogg	0,1,220	// カン
+0x3a 0x3a.ogg	0,1,220	// カンンン
+0x3b 0x3b.ogg	0,1,220	// GO
+0x3f 0x3f.ogg	0,1,220	// ズビシュー
+0x1a 0x1a.ogg	1,19,220 vp:0	// 歓声
+0x37 0x37.ogg	1,19,220	// 導火線
+0x34 0x34.ogg	1,19,220	// 地下鉄 1
+0x33 0x33.ogg	0,19,220	// 地下鉄 2
+0x30 0x30.ogg	0,19,220	// エレベーター1
+0x31 0x31.ogg	1,19,220	// エレベーター2
+0x32 0x32.ogg	0,19,220	// エレベーター3
+0xf0 dm.ogg	0,19,0	vp:0
+0xf2 dm.ogg	0,19,0	vp:0
+0xf4 dm.ogg	0,19,0	vp:0
+0xf5 dm.ogg	0,19,0	vp:0
+
+
+
+//差替え元
+//X68k MIDI
+
+[X68k MIDI]
+title	X68k MIDI
+0x40 Track02_a.ogg	1,0,200,306176,1840136	// BGM 1
+0x41 Track03_a.ogg	1,0,200,446976,1812496	// BGM 2
+0x42 Track04_a.ogg	1,0,200,39424,2596360	// BGM 3
+0x43 Track05_a.ogg	1,0,200,92672,4201992	// BGM 4
+0x44 Track06_a.ogg	1,0,200,364032,1284104	// BGM 5
+0x45 Track07_a.ogg	1,0,200,377344,2831880	// BGM 6
+0x46 Track08_a.ogg	1,0,200,534016,1723400	// BGM 7
+0x47 Track09_a.ogg	1,0,200,16384,1780232	// BGM 8
+0x48 Track10_a.ogg	1,0,200,826880,3421192	// BGM 9
+0x49 Track11_a.ogg	1,0,200,226304,3395592	// BGM 10
+0x4c Track12_a.ogg	0,0,200	// Bonus Stage
+0x50 Track13_a.ogg	0,0,200	// Opening
+0x51 Track14_a.ogg	0,0,200	// Game Over
+0x52 Track28_a.ogg	0,0,200	// Demo
+0x53 Track18_a.ogg	0,0,200	// Continue
+0x54 Track29_a.ogg	0,0,200	// Ending
+0x55 Track17_a.ogg	1,0,200,129536,925192	// Player Select
+0x56 Track24_a.ogg	0,0,200	//
+0x57 Track16_a.ogg	0,0,200	// Round Clear
+0x58 Track15_a.ogg	0,0,200	// Last Round Clear
+0x5f 0x5f_a.ogg	0,11,220	// クレジット
+0x35 0x35.ogg	0,11,220	// 電話 1
+0x36 0x36.ogg	0,11,220	// 電話 2
+
+
+
+//差替え元
+//Final Fight BGM1(GUITAR COVER)[ファイナルファイト]
+//https://www.youtube.com/watch?v=lvgXfMWMp50
+
+[Final Fight BGM1(GUITAR COVER)]
+title	Final Fight BGM1(GUITAR COVER)
+0x40 Track02_b.ogg	1,0,210,134656,1821192	// BGM 1
+0x41 Track03_b.ogg	1,0,210,340480,1705992	// BGM 2
+0x42 Track04_b.ogg	1,0,210,38400,2496520	// BGM 3
+0x43 Track05_b.ogg	1,0,210,121856,2177032	// BGM 4
+0x44 Track06_b.ogg	1,0,210,765440,1992712	// BGM 5
+0x45 Track07_b.ogg	1,0,210,380928,2985992	// BGM 6
+0x46 Track08_c.ogg	1,0,210,485376,1661448	// BGM 7
+0x47 Track09_b.ogg	1,0,210,29696,1794056	// BGM 8
+0x48 Track10_b.ogg	1,0,210,854016,6043656	// BGM 9
+0x49 Track11_b.ogg	1,0,210,714240,2524168	// BGM 10
+0x4c Track12_c.ogg	0,0,210	// Bonus Stage
+0x50 Track13_a.ogg	0,0,200	// Opening
+0x51 Track14_a.ogg	0,0,200	// Game Over
+0x52 Track28_b.ogg	0,0,210	// Demo
+0x53 Track18_a.ogg	0,0,200	// Continue
+0x54 Track29_c.ogg	0,0,210	// Ending
+0x55 Track17_b.ogg	1,0,210,132096,946184	// Player Select
+0x56 Track24_a.ogg	0,0,200	//
+0x57 Track16_b.ogg	0,0,210	// Round Clear
+0x58 Track15_a.ogg	0,0,200	// Last Round Clear
+0x5f 0x5f_b.ogg	0,11,220	// クレジット
+0x35 dm.ogg	0,1,220	// 電話 1
+0x36 dm.ogg	0,1,220	// 電話 2
+
+
+
+//差替え元
+//ファイナルファイト ギターメドレー / Final Fight guitar medley バンドアレンジで弾いてみた
+//https://www.youtube.com/watch?v=NzMN6Dsw4bI
+
+[ファイナルファイト ギターメドレー バンドアレンジで弾いてみた]
+title	ファイナルファイト ギターメドレー バンドアレンジで弾いてみた
+0x40 Track02_c.ogg	1,0,210,364032,1898000	// BGM 1
+0x41 Track03_c.ogg	1,0,210,342528,1708040	// BGM 2
+0x42 Track04_c.ogg	1,0,210,41472,2687496	// BGM 3
+0x43 Track05_c.ogg	1,0,210,96256,2150408	// BGM 4
+0x44 Track06_c.ogg	1,0,210,371200,1304584	// BGM 5
+0x45 Track07_c.ogg	1,0,210,373760,2827272	// BGM 6
+0x46 Track08_c.ogg	1,0,210,485376,1661448	// BGM 7
+0x47 Track09_c.ogg	1,0,210,272384,5564936	// BGM 8
+0x48 Track10_c.ogg	1,0,210,839680,3436552	// BGM 9
+0x49 Track11_c.ogg	1,0,210	// BGM 10
+0x4c Track12_c.ogg	1,0,210,204288,1182216	// Bonus Stage
+0x50 Track13_c.ogg	0,0,210	// Opening
+0x51 Track14_a.ogg	0,0,200	// Game Over
+0x52 Track28_c.ogg	0,0,210	// Demo
+0x53 Track18_a.ogg	0,0,200	// Continue
+0x54 Track29_c.ogg	0,0,210	// Ending
+0x55 Track17_c.ogg	1,0,210,107520,897544	// Player Select
+0x56 Track24_a.ogg	0,0,200	//
+0x57 Track16_b.ogg	0,0,210	// Round Clear
+0x58 Track15_a.ogg	0,0,200	// Last Round Clear
+0x5f 0x5f_b.ogg	0,11,220	// クレジット
+0x35 0x35.ogg	0,11,220	// 電話 1
+0x36 0x36.ogg	0,11,220	// 電話 2
+
+
+
+//差替え元
+//Final Fight Intro Super Remix
+//https://www.youtube.com/watch?v=jaE-d3CgDwQ
+
+[Final Fight Intro Super Remix]
+title	Final Fight Intro Super Remix
+0x40 Track02_d.ogg	1,0,200,529408,3351560	// BGM 1
+0x41 Track03_d.ogg	1,0,200,462336,2226696	// BGM 2
+0x42 Track04_d.ogg	1,0,200,56832,3156488	// BGM 3
+0x43 Track05_d.ogg	1,0,200,37888,5651464	// BGM 4
+0x44 Track06_d.ogg	1,0,200,232960,3256840	// BGM 5
+0x45 Track07_d.ogg	1,0,200,254976,5272584	// BGM 6
+0x46 Track08_d.ogg	1,0,200,13824,2716168	// BGM 7
+0x47 Track09_d.ogg	1,0,200,322560,2042376	// BGM 8
+0x48 Track10_d.ogg	1,0,200,911872,3532296	// BGM 9
+0x49 Track11_d.ogg	1,0,200,382464,3472904	// BGM 10
+0x4c Track12_d.ogg	0,0,200	// Bonus Stage
+0x50 Track13_d.ogg	0,0,200	// Opening
+0x51 Track14_a.ogg	0,0,200	// Game Over
+0x52 Track28_d.ogg	0,0,200	// Demo
+0x53 Track18_a.ogg	0,0,200	// Continue
+0x54 Track29_a.ogg	0,0,200	// Ending
+0x55 Track17_d.ogg	1,0,200,207360,963592	// Player Select
+0x56 Track24_a.ogg	0,0,200	//
+0x57 Track16_a.ogg	0,0,200	// Round Clear
+0x58 Track15_a.ogg	0,0,200	// Last Round Clear
+0x5f 0x5f_a.ogg	0,11,220	// クレジット
+0x35 0x35.ogg	0,11,220	// 電話 1
+0x36 0x36.ogg	0,11,220	// 電話 2
+
+
+
+//差替え元
+//Double Impact版
+
+[Double Impact版]
+title	Double Impact版
+0x40 Track02_e.ogg	1,0,200,101888,1955848	// BGM 1
+0x41 Track03_e.ogg	1,0,200,20992,1713160	// BGM 2
+0x42 Track04_e.ogg	1,0,200,142336,2912776	// BGM 3
+0x43 Track05_e.ogg	1,0,200	// BGM 4
+0x44 Track06_e.ogg	1,0,200,71168,2505736	// BGM 5
+0x45 Track07_e.ogg	1,0,200,56832,2797064	// BGM 6
+0x46 Track08_e.ogg	1,0,200,59392,2911752	// BGM 7
+0x47 Track09_e.ogg	1,0,200,50688,1813512	// BGM 8
+0x48 Track10_e.ogg	1,0,200,807424,3408392	// BGM 9
+0x49 Track11_e.ogg	1,0,200	// BGM 10
+0x4c Track12_e.ogg	0,0,200	// Bonus Stage
+0x50 Track13_e.ogg	0,0,200	// Opening
+0x51 Track14_e.ogg	0,0,200	// Game Over
+0x52 Track28_e.ogg	0,0,200	// Demo
+0x53 Track18_e.ogg	0,0,200	// Continue
+0x54 Track29_e.ogg	0,0,200	// Ending
+0x55 Track17_e.ogg	1,0,200,29184,660488	// Player Select
+0x56 Track24_e.ogg	0,0,200	//
+0x57 Track16_e.ogg	0,0,200	// Round Clear
+0x58 Track15_e.ogg	0,0,200	// Last Round Clear
+0x5f 0x5f.ogg	0,11,220	// クレジット
+0x35 0x35.ogg	0,11,220	// 電話 1
+0x36 0x36.ogg	0,11,220	// 電話 2
+
+
+
+//差替え元
+//メガCD版
+
+[メガCD版]
+title	メガCD版
+0x40 Track02_f.ogg	1,0,200,158720,2180104	// BGM 1
+0x41 Track03_f.ogg	1,0,200,198144,3460104	// BGM 2
+0x42 Track04_f.ogg	1,0,200,775168,3255816	// BGM 3
+0x43 Track05_f.ogg	1,0,200,299520,3190792	// BGM 4
+0x44 Track06_f.ogg	1,0,200,110592,2490376	// BGM 5
+0x45 Track07_f.ogg	1,0,200,470016,3093512	// BGM 6
+0x46 Track08_f.ogg	1,0,200,240640,3724808	// BGM 7
+0x47 Track09_f.ogg	1,0,200,193536,3884552	// BGM 8
+0x48 Track10_f.ogg	1,0,200,1057792,4402696	// BGM 9
+0x49 Track11_f.ogg	1,0,200,2479104,4241928	// BGM 10
+0x4c Track12_f.ogg	0,0,200	// Bonus Stage
+0x50 Track13_f.ogg	0,0,200	// Opening
+0x51 Track14_f.ogg	0,0,200	// Game Over
+0x52 Track28_f.ogg	0,0,200	// Demo
+0x53 Track18_f.ogg	0,0,200	// Continue
+0x54 Track29_f.ogg	0,0,200	// Ending
+0x55 Track17_f.ogg	0,0,200	// Player Select
+0x56 Track24_f.ogg	0,0,200	//
+0x57 Track16_f.ogg	0,0,200	// Round Clear
+0x58 Track15_f.ogg	0,0,200	// Last Round Clear
+0x5f 0x5f_a.ogg	0,11,220	// クレジット
+0x35 0x35.ogg	0,11,220	// 電話 1
+0x36 0x36.ogg	0,11,220	// 電話 2
+
+
+
+//差替え元
+//X68k FM音源版 簡易ステレオ化
+
+[X68k FM音源版 簡易ステレオ化]
+title	X68k FM音源版 簡易ステレオ化
+0x40 Track02_g.ogg	1,0,200,306688,1840648	// BGM 1
+0x41 Track03_g.ogg	1,0,200,341504,1707016	// BGM 2
+0x42 Track04_g.ogg	1,0,200,39936,2596872	// BGM 3
+0x43 Track05_g.ogg	1,0,200,46080,4155912	// BGM 4
+0x44 Track06_g.ogg	1,0,200,364544,1285128	// BGM 5
+0x45 Track07_g.ogg	1,0,200,374272,2828808	// BGM 6
+0x46 Track08_g.ogg	1,0,200,535552,1724424	// BGM 7
+0x47 Track09_g.ogg	1,0,200,16896,1780744	// BGM 8
+0x48 Track10_g.ogg	1,0,200,826880,3422216	// BGM 9
+0x49 Track11_g.ogg	1,0,200,678400,2490376	// BGM 10
+0x4c Track12_g.ogg	0,0,200	// Bonus Stage
+0x50 Track13_g.ogg	0,0,200	// Opening
+0x51 Track14_g.ogg	0,0,200	// Game Over
+0x52 Track28_g.ogg	0,0,200	// Demo
+0x53 Track18_g.ogg	0,0,200	// Continue
+0x54 Track29_g.ogg	0,0,200	// Ending
+0x55 Track17_g.ogg	1,0,200,129024,924168	// Player Select
+0x56 Track24_g.ogg	0,0,200	//
+0x57 Track16_g.ogg	0,0,200	// Round Clear
+0x58 Track15_g.ogg	0,0,200	// Last Round Clear
+0x5f 0x5f.ogg	0,11,220	// クレジット
+0x35 0x35.ogg	0,11,220	// 電話 1
+0x36 0x36.ogg	0,11,220	// 電話 2
