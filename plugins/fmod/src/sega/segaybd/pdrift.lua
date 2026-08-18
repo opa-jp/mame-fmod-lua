@@ -29,7 +29,7 @@ function user.init()
 		deley_count = 1
 	end
 
-	frame_done_handle = emu.register_frame_done(function()
+	local function pd_frame()
 		if not is_running then return end
 		if (deley_count > 0) then deley_count = deley_count - 1 end
 		if pending_sound ~= nil then
@@ -53,15 +53,8 @@ function user.init()
 			if gear == 0xe0 or gear == 0xc0 then fmod:play(0xf80) end
 		end
 		gear_buf = gear
-	end)
-
-	emu.register_stop(function()
-		is_running = false
-		if frame_done_handle then
-			frame_done_handle:remove()
-			frame_done_handle = nil
-		end
-	end)
+	end
+	set_frame_handlers(pd_frame)
 
 	local function sound_replace(offset, data)
 		local s = data & 0xFF
