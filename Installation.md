@@ -126,8 +126,7 @@ The FMOD-enabled `mame.exe` and `fmod.dll` do not need to be downloaded again un
 ## Important Notes
 
 - The official MAME package is required as the base installation.
-- The FMOD-enabled `mame.exe` and `fmod.dll` are distributed separately because of GitHub file-size limitations.
-- The GitHub repository contains the Lua scripts, source code, configuration files, and other project files.
+- The GitHub repository contains the Lua scripts, and other project files.
 - No game ROMs are included.
 - You are responsible for obtaining and using ROMs and other copyrighted game data legally.
 - This project is experimental. Use it at your own risk.
