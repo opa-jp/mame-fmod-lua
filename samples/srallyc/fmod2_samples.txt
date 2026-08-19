@@ -1,0 +1,46 @@
+[default]
+0x00	data	0x90	// stop
+0x01	0x01.mp3	0,0,100
+0x02	0x02.ogg	0,0,100 // advertise demo
+0x03	0x03.ogg	0,0,100 // select
+0x04	0x04.ogg	0,1,100 // clear
+0x05	0x05.ogg	0,0,100 // stage 4
+0x06	0x06.ogg	0,0,100 // name entry
+0x07	0x07.ogg	0,1,100 // ending2
+0x08	0x08.ogg	0,0,100 // stage 2
+0x09	0x09.ogg	0,1,100 // time over
+0x0a	0x0a.ogg	0,0,100
+0x0b	0x0b.ogg	0,0,100 // stage 1
+0x0c	0x0c.ogg	0,1,100 // game over
+0x0d	0x0d.ogg	0,1,100	// title call
+0x0e	0x0e.ogg	0,0,100 // stage 2p
+0x0f	0x0f.ogg	0,1,100 // ending1
+0x10	0x10.ogg	0,0,100 // stage 3
+
+[voice overwrite]
+0x2000	vo_0x00.wav	0,5,100	// 3
+0x2001	vo_0x01.wav	0,5,100	// 2
+0x2002	vo_0x02.wav	0,5,100	// 1
+0x2003	vo_0x03.wav	0,5,100	// go!
+0x2004	vo_0x04.wav	0,5,100	// check point
+0x2005	vo_0x05.wav	0,5,100	// finish
+0x2007	vo_0x07.wav	0,5,100	// turn on
+0x200a	vo_0x0a.wav	0,5,100	// over jump
+0x200e	vo_0x0e.wav	0,5,100	// ouch
+0x2014	vo_0x14.wav	0,5,100	// easy right
+0x2015	vo_0x15.wav	0,5,100	// easy left
+0x201a	vo_0x1c.wav	0,5,100	// long easy right maybe
+0x201c	vo_0x1c.wav	0,5,100	// very long easy right - st2
+0x201d	vo_0x1e.wav	0,5,100	// very long easy left
+0x201e	vo_0x1e.wav	0,5,100	// very long easy right
+0x2020	vo_0x20.wav	0,5,100	// easy right easy left
+0x2021	vo_0x21.wav	0,5,100	// easy left easy right
+0x2024	vo_0x24.wav	0,5,100	// midium left
+0x2026	vo_0x26.wav	0,5,100	// midium left maybe
+0x2027	vo_0x27.wav	0,5,100	// long midium right
+0x202e	vo_0x2e.wav	0,5,100	// tight left
+0x2032	vo_0x32.wav	0,5,100	// caution! tight right
+0x2037	vo_0x37.wav	0,5,100	// caution! hairpin right
+0x203b	vo_0x3b.wav	0,5,100	// sega rally champion ship
+0x203f	vo_0x3f.wav	0,5,100	// gallary
+0x2045	vo_0x45.wav	0,5,100	// st2.start

@@ -1,5 +1,4 @@
-#num file	flag[8bit](bit 1:loop 2:latch 4:poly 8:extra 10:stop 20:fadeout 40:false 80:true)+[8bit]priority:0-255, channel[L4bit](0:music 1-8:se 0xf:play on any free channel)[H4bit](poly mode:max poly def=3), volume(%), loop start, loop length, start position
-#flag:40(channel 0):flag[high8bit](send code)
+#num file	flag[8bit](bit 1:loop 10:stop 20:fadeout 40:false 80:true)+[8bit]priority:0-255, channel:0-40(10-19:samples2vibration-LMotor,20-29:samples2vibration-RMotor,30-39:samples2vibration-BothMotor), volume(%), loop start(sample), loop length(sample), start position(sample)
 
 // Original BGM to be replaced
 // Space Harrier - Stage 1 Åb Epic Rock Cover
@@ -8,11 +7,11 @@
 [default]
 0x80 data	0x80
 
-0xad 0xad.ogg	1,0,50,6522,9531915,6522
-0xb0 0xad.ogg	1,0,50,6522,9531915,5298933
-0xae 0xad.ogg	1,0,50,6522,9531915,1062075
-0xaf 0xad.ogg	1,0,50,6522,9531915,3706604
-0xb1 0xad.ogg	1,0,50,6522,9531915,7418402
+0xad 0xad.ogg	1,0,16,6522,9531915,6522
+0xb0 0xad.ogg	1,0,16,6522,9531915,5298933
+0xae 0xad.ogg	1,0,16,6522,9531915,1062075
+0xaf 0xad.ogg	1,0,16,6522,9531915,3706604
+0xb1 0xad.ogg	1,0,16,6522,9531915,7418402
 
 0xa3 0xa3.ogg	1,0,80 // Boss battle BGM (No actual audio sample is included; this is present solely to determine the timing for stopping the main BGM that has been replaced.)
 0xa4 0xa4.ogg	1,0,80
@@ -29,7 +28,7 @@
 0xd0 data	0x80	// boss1 fire
 0xb5 data	0x80	// player shot
 0xb6 data	0x80	// player shot guard
-0xa0 0xa0.wav	0,20,180	vp:60	// destory
+0xa0 0xa0.wav	0,10,70	vp:60	// boom
 0xa7 data	0x80	// ?
 0xfe data	0x80	// player shot end?
 0xbe data	0x80	// enemy1 shot

@@ -8,6 +8,7 @@ This project was created as an experiment to make it possible to replace MAME's 
 
 - Play external FMOD samples from MAME Lua scripts
 - Replace in-game sound effects using Lua
+- samples list loaded from `fmod2_samples.txt`
 - Supports WAV, MP3, and OGG sample files
 - Per-channel volume control
 - Loop, pause, fade-in, and fade-out support
@@ -16,8 +17,6 @@ This project was created as an experiment to make it possible to replace MAME's 
 - Vibration control from Lua
 - Vibration patterns loaded from `vibration.txt`
 - Configurable vibration gain, exponent, and threshold
-- FMOD debug logging
-- Sample and vibration data can be reloaded without restarting MAME
 
 > **Note:** This is an experimental project. Some games cannot be hooked correctly because `lua install_write_tap` does not always receive data from the required address. As a result, sound replacement may not be possible for every game.
 
