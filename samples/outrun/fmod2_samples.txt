@@ -1,0 +1,11 @@
+// 差し替え元BGM
+// 【40周年】アウトラン 全曲ドラムカバー【再編集】
+// https://www.youtube.com/watch?v=b0bnwVtPu2I
+
+[default]
+0x00 data	0x90,0  // soud stop
+
+0x85 OR0x85.ogg	0,0,120	// magical sound shower
+0x81 OR0x81.ogg	0,0,120	// passing  breeze
+0x82 OR0x82.ogg	0,0,120	// splash wave
+0xa5 OR0xa5.ogg	0,0,120	// last wave
