@@ -1,0 +1,21 @@
+#num file	flag[8bit](bit 1:loop 10:stop 20:fadeout 40:false 80:true)+[8bit]priority:0-255, channel:0-40(10-19:samples2vibration-LMotor,20-29:samples2vibration-RMotor,30-39:samples2vibration-BothMotor), volume(%), loop start(sample), loop length(sample), start position(sample)
+
+[default]
+0x00	data	0x90
+
+0x81	0x81.mp3	1,0,100 19459,9999783,19251
+0x82	0x82.mp3	1,0,100 29417,11476925,18434
+0x83	0x83.mp3	0,0,100 16909,9736278,16909
+0x92	0x92.mp3	0,0,100 60052,10015269,41681
+0x96	0x96.mp3	1,0,100 272636,10114772,251875
+0x9d	0x9d.mp3	1,0,100 76010,11569988,18940
+0x9e	0x83.mp3	1,0,100 29417,11476925,18434
+
+0x8a data	0x80
+0x8b data	0x80
+0x8c data	0x80
+0x8d data	0x80
+0x8f data	0x80
+0x94 data	0x80
+0x95 data	0x80
+0xa1 data	0x80
