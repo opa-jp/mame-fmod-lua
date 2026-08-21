@@ -1,0 +1,21 @@
+[system]
+motor	100	// モーターの出力調整 単位はパーセント
+reload	0	// MAMEのポーズ時にデータのリロードを行います
+datalog	0
+
+[memory]
+#cpu,addless,mask,motor(0:none 1:high-freq 2:low-freq 3:mix 4:off/on),calc
+
+[code]
+#num	type    	LeftMotorSpeed, RightMotorSpeed, StopMSec
+0x81	vibration	0x0000,0x6FFF,1200	// turbo
+0x83	vibration	0x0000,0x3FFF,300	// slip
+0x84	vibration	0x3FFF,0x0000,300	// hit.body
+0x85	vibration	0x2FFF,0x0000,300	// hit.body
+0x86	vibration	0x1FFF,0x4FFF,300	// oil.burst
+//0x89	vibration	0x0000,0x2FFF,300,0x8d	// raine
+0x8b	vibration	0x4FFF,0x0000,300	// hit.body
+0x8c	vibration	0x1FFF,0x4FFF,300	// hit.body
+0x8d	vibration	0x0000,0x0000,300	// raine.fadeout
+0xa2	vibration	0x2FFF,0x0000,400	// hit.tire
+0xa5	vibration	0x4FFF,0x0000,400	// hit.tire

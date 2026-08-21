@@ -1,0 +1,140 @@
+[default]
+0x00	data	0x90	// soud stop
+0x81	data	0x80	// turbo
+0x83	data	0x80	// slip
+0x84	data	0x80	// hit.body
+0x85	data	0x80	// hit.body
+0x86	data	0x80	// oil.burst
+0x87	data	0x80	// police.siren
+0x88	data	0x80	// raine
+0x89	data	0x80	// pass.car.l
+0x8a	data	0x80	// pass.car.r
+0x8b	data	0x80	// hit.body
+0x8c	data	0x80	// hit.body
+0x8d	data	0x80	// raine.fadeout
+0x8e	data	0x80	// police.siren.fadeout
+0xa0	data	0x80	// pass.truck.l
+0xa1	data	0x80	// pass.truck.r
+0xa2	data	0x80	// hit.tire
+0xa5	data	0x80	// hit.tire
+0xf80	shifter.wav	0,1,200	// shifter switch
+
+
+
+[FM Towns]
+title FM Towns
+0x91	0x91_b.ogg	1,0,80 79360,1960968 // Opening
+0x93	0x93_b.ogg	1,0,80 // Parts Select
+0x90	0x96_b.ogg	1,0,80 219136,4404744 // Snake the Street
+0x92	0x90_b.ogg	1,0,80 42496,6138376 // Rush a Difficulty
+0x95	0x92_b.ogg	1,0,80 550912,5086216 // Keep Your Heart
+0x96	0x95_b.ogg	1,0,80 45568,6235144 // Who are You
+0x97	0x97_b.ogg	0,0,80 // Ending
+0x94	0x94_b.ogg	0,0,80 // Name Entry
+
+
+
+[OutRun 2006]
+title OutRun 2006
+0x91	0x91_b.ogg	1,0,80 79360,1960968 // Opening
+0x93	0x93_b.ogg	1,0,80 // Parts Select
+0x90	0x96_c.ogg	1,0,80 1351168,11061256 // Snake the Street
+0x92	0x90_c.ogg	1,0,80 770560,11471368 // Rush a Difficulty
+0x95	0x92_c.ogg	1,0,80 2699264,12718600 // Keep Your Heart
+0x96	0x95_c.ogg	1,0,80 3228160,10754568 // Who are You
+0x97	0x97_b.ogg	0,0,80 // Ending
+0x94	0x94_b.ogg	0,0,80 // Name Entry
+
+
+
+//差替え元
+//TURBO OUT RUN / Shake the Street(BGM 1)
+//https://www.youtube.com/watch?v=hi_PRiqfj0c
+
+[MIDI]
+title MIDI
+0x91	0x91_d.ogg	1,0,80 77824,1945608 // Opening
+0x93	0x93_d.ogg	1,0,80 82944,651784 // Parts Select
+0x90	0x96_d.ogg	1,0,80 113152,8580616 // Snake the Street
+0x92	0x90_d.ogg	1,0,80 129536,8424456 // Rush a Difficulty
+0x95	0x92_d.ogg	1,0,80 86016,10388488 // Keep Your Heart
+0x96	0x95_d.ogg	1,0,80 98816,11741192 // Who are You
+0x97	0x97_d.ogg	0,0,80 // Ending
+0x94	0x94_d.ogg	0,0,80 // Name Entry
+
+
+
+//差替え元
+//[DTM] SEGA TURBO OUTRUN - Shake the Street - NosferatuJP Remix
+//https://www.youtube.com/watch?v=gdZSBPKUeVY
+
+[Extra]
+title Extra
+0x91	0x91_d.ogg	1,0,80 77824,1945608 // Opening
+0x93	0x93_d.ogg	1,0,80 82944,651784 // Parts Select
+0x90	0x96_e.ogg	1,0,80 129536,8424456 // Rush a Difficulty
+0x92	0x90_e.ogg	1,0,80 82944,8550408 // Rush a Difficulty
+0x95	0x92_d.ogg	1,0,80 86016,10388488 // Keep Your Heart
+0x96	0x95_d.ogg	1,0,80 98816,11741192 // Who are You
+0x97	0x97_f.ogg	0,0,80 // Ending
+0x94	0x94_d.ogg	0,0,80 // Name Entry
+
+
+
+[FM Towns (Type2)]
+title FM Towns (Type2)
+0x91	0x91_b.ogg	1,0,80 79360,1960968 // Opening
+0x93	0x93_b.ogg	1,0,80 // Parts Select
+0x90	0x90_b.ogg	1,0,80 42496,6138376 // Rush a Difficulty
+0x92	0x92_b.ogg	1,0,80 550912,5086216 // Keep Your Heart
+0x95	0x95_b.ogg	1,0,80 45568,6235144 // Who are You
+0x96	0x96_b.ogg	1,0,80 219136,4404744 // Snake the Street
+0x97	0x97_b.ogg	0,0,80 // Ending
+0x94	0x94_b.ogg	0,0,80 // Name Entry
+
+
+
+[OutRun 2006 (Type2)]
+title OutRun 2006 (Type2)
+0x91	0x91_b.ogg	1,0,80 79360,1960968 // Opening
+0x93	0x93_b.ogg	1,0,80 // Parts Select
+0x90	0x90_c.ogg	1,0,80 770560,11471368 // Rush a Difficulty
+0x92	0x92_c.ogg	1,0,80 2699264,12718600 // Keep Your Heart
+0x95	0x95_c.ogg	1,0,80 3228160,10754568 // Who are You
+0x96	0x96_c.ogg	1,0,80 1351168,11061256 // Snake the Street
+0x97	0x97_b.ogg	0,0,80 // Ending
+0x94	0x94_b.ogg	0,0,80 // Name Entry
+
+
+
+//差替え元
+//TURBO OUT RUN / Shake the Street(BGM 1)
+//https://www.youtube.com/watch?v=hi_PRiqfj0c
+
+[MIDI (Type2)]
+title MIDI (Type2)
+0x91	0x91_d.ogg	1,0,80 77824,1945608 // Opening
+0x93	0x93_d.ogg	1,0,80 82944,651784 // Parts Select
+0x90	0x90_d.ogg	1,0,80 129536,8424456 // Rush a Difficulty
+0x92	0x92_d.ogg	1,0,80 86016,10388488 // Keep Your Heart
+0x95	0x95_d.ogg	1,0,80 98816,11741192 // Who are You
+0x96	0x96_d.ogg	1,0,80 113152,8580616 // Snake the Street
+0x97	0x97_d.ogg	0,0,80 // Ending
+0x94	0x94_d.ogg	0,0,80 // Name Entry
+
+
+
+//差替え元
+//[DTM] SEGA TURBO OUTRUN - Shake the Street - NosferatuJP Remix
+//https://www.youtube.com/watch?v=gdZSBPKUeVY
+
+[Extra (Type2)]
+title Extra (Type2)
+0x91	0x91_d.ogg	1,0,80 77824,1945608 // Opening
+0x93	0x93_d.ogg	1,0,80 82944,651784 // Parts Select
+0x90	0x90_e.ogg	1,0,80 82944,8550408 // Rush a Difficulty
+0x92	0x92_d.ogg	1,0,80 86016,10388488 // Keep Your Heart
+0x95	0x95_d.ogg	1,0,80 98816,11741192 // Who are You
+0x96	0x96_e.ogg	1,0,80 358400,9074696 // Snake the Street
+0x97	0x97_f.ogg	0,0,80 // Ending
+0x94	0x94_d.ogg	0,0,80 // Name Entry
