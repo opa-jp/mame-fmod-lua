@@ -1,0 +1,97 @@
+[default]
+0xff data	0x80
+0x00 data	0x90
+
+
+
+//AC版簡易ステレオ
+
+[AC Stereo]
+title AC Stereo
+0x96 0x96_a.ogg	1,0,40 // Title
+0x9d 0x9d_a.ogg	1,0,40,97280,2726416 // Main Theme
+0x81 0x81_a.ogg	0,0,40	// Goal
+0x82 0x82_a.ogg	0,0,40 // Name Entry
+
+
+
+//差替え元
+//GAME MUSIC「HANG-ON」をメドレー演奏しました
+//https://www.youtube.com/watch?v=7QWM9PbyM-k
+
+[Band]
+title Band
+0x96 0x96_b.ogg	1,0,40 // Title
+0x9d 0x9d_b.ogg	1,0,40,4051968,7685640 // Main Theme
+0x81 0x81_b.ogg	0,0,40	// Goal
+0x82 0x82_b.ogg	0,0,40 // Name Entry
+
+
+
+//差替え元
+//【HANG-ON / HANG-ON Ⅱ】TITLE ~ MAIN THEME ~ NAME ENTRY (MIDI)
+//https://www.youtube.com/watch?v=CLgyGoMqezY
+
+[MIDI A]
+title MIDI A
+0x96 0x96_c.ogg	1,0,40 // Title
+0x9d 0x9d_c.ogg	1,0,40,97296,2743328 // Main Theme
+0x81 0x81_b.ogg	0,0,40	// Goal
+0x82 0x82_c.ogg	0,0,40	// Name Entry
+
+
+
+//差替え元
+//昭和レトロ ゲームミュージック アレンジ HANG･ON
+//https://www.youtube.com/watch?v=VRU72n-LHbM
+
+[MIDI B]
+title MIDI B
+0x96 0x96_b.ogg	1,0,40 // Title
+0x9d 0x9d_d.ogg	1,0,40,1682440,5841944 // Main Theme
+0x81 0x81_b.ogg	0,0,40	// Goal
+0x82 0x82_b.ogg	0,0,40 // Name Entry
+
+
+
+//差替え元
+//Hang On - Theme Song (Guitar Version)
+//https://www.youtube.com/watch?v=zRgeQ0UDikQ
+
+[Guitar A]
+title Guitar A
+0x96 0x96_b.ogg	1,0,40 // Title
+0x9d 0x9d_e.ogg	1,0,40,217088,6496768 // Main Theme
+0x81 0x81_b.ogg	0,0,40	// Goal
+0x82 0x82_b.ogg	0,0,40 // Name Entry
+
+
+
+//差替え元
+//SEGA HANG ON - MAIN THEME - Epic Metal Guitar Cover by CelestiC
+//https://www.youtube.com/watch?v=1WG6kQP55Fw
+
+[Guitar B]
+title Guitar B
+0x96 0x96_b.ogg	1,0,40 // Title
+0x9d 0x9d_f.ogg	1,0,40,1227272,4464152 // Main Theme
+0x81 0x81_b.ogg	0,0,40	// Goal
+0x82 0x82_b.ogg	0,0,40 // Name Entry
+
+
+
+[Mickey]
+title Mickey
+0x96 0x96_b.ogg	1,0,40 // Title
+0x9d 0x9d_g.ogg	1,0,40,189968,6423584 // Main Theme
+0x81 0x81_b.ogg	0,0,40	// Goal
+0x82 0x82_b.ogg	0,0,40 // Name Entry
+
+
+
+[Hang-On 95]
+title Hang-On 95
+0x96 0x96_b.ogg	1,0,40 // Title
+0x9d 0x9d_h.ogg	1,0,40,570376,5104664 // Main Theme
+0x81 0x81_b.ogg	0,0,40	// Goal
+0x82 0x82_b.ogg	0,0,40 // Name Entry

@@ -1,10 +1,5 @@
 [system]
-motor	100	// モーターの出力調整 単位はパーセント
-reload	0	// MAMEのポーズ時にデータのリロードを行います
-datalog	0
-
-[memory]
-#cpu,addless,mask,motor(0:none 1:high-freq 2:low-freq 3:mix 4:off/on),calc
+motor	100
 
 [code]
 #num	type    	LeftMotorSpeed, RightMotorSpeed, StopMSec

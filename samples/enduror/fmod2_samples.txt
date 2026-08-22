@@ -1,0 +1,15 @@
+#num file	flag[8bit](bit 1:loop 10:stop 20:fadeout 40:false 80:true)+[8bit]priority:0-255, channel:0-40(10-19:samples2vibration-LMotor,20-29:samples2vibration-RMotor,30-39:samples2vibration-BothMotor), volume(%), loop start(sample), loop length(sample), start position(sample)
+
+// 差し替え元BGM
+// 【エンデューロレーサー】ドラムカバーしてみた！【40周年】
+// https://www.youtube.com/watch?v=OCneLq8bgl8
+
+[default]
+0xff	data	0x80
+0x00	data	0x90
+
+0x83 0x83.ogg	1,0,100	// Opening
+0x81 0x81_a.ogg	1,0,100,120320,11611656	// Main Theme
+0x82 0x82.ogg	1,0,100	// Name Entry 1
+0x85 0x85.ogg	1,0,100	// Name Entry 2
+0x84 0x84.ogg	0,0,100	// BGM 1
