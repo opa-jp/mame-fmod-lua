@@ -1,0 +1,27 @@
+#num file	flag[8bit](bit 1:loop 10:stop 20:fadeout 40:false 80:true)+[8bit]priority:0-255, channel:0-40(10-19:samples2vibration-LMotor,20-29:samples2vibration-RMotor,30-39:samples2vibration-BothMotor), volume(%), loop start(sample), loop length(sample), start position(sample)
+
+// 差し替え元BGM
+// ファンタジーゾーン 全ステージ叩いて語ってみた！ 【Part1／2】演奏&トーク編
+// https://www.youtube.com/watch?v=LNXLLzcU5vI
+
+[default]
+0x30 data	0x90,0
+0x85 data	0x90,0
+0x8b data	0xa0,0,250
+
+0x9a FZ0x9a.ogg	0,0,150
+0x9b FZ0x9b.ogg	1,0,150 592850,3297797
+0xb9 FZ0x9b.ogg	1,0,150 592850,3297797,254955
+0xa0 FZ0xa0.ogg	1,0,150 484338,990824
+0xbc FZ0xbc.ogg	1,0,150 2250616,3151745
+0xbd FZ0xbc.ogg	1,0,150 2250616,3151745,55525
+0xbf FZ0xbf.ogg	1,0,150 201181,1552725
+0x8f FZ0x8f.ogg	0,0,150
+0x90 FZ0x8f.ogg	0,0,150 1,2989804,1217631
+0x91 FZ0x91.ogg	1,0,150 1,2208637
+0x99 FZ0x99.ogg	0,0,150
+0xc0 FZ0xc0.ogg	1,0,150 140009,1222344
+0xc1 FZ0xc1.ogg	1,0,150 694504,2318161
+0xc2 FZ0xc2.ogg	1,0,150 213737,1836252
+0xc3 FZ0xc3.ogg	1,0,150 170343,2198902
+0xc4 FZ0xc4.ogg	1,0,150 330699,1592276

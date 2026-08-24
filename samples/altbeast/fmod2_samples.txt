@@ -1,0 +1,25 @@
+#num file	flag[8bit](bit 1:loop 10:stop 20:fadeout 40:false 80:true)+[8bit]priority:0-255, channel:0-40(10-19:samples2vibration-LMotor,20-29:samples2vibration-RMotor,30-39:samples2vibration-BothMotor), volume(%), loop start(sample), loop length(sample), start position(sample)
+
+[default]
+0x00 data	0x90
+
+0x90	0x90.mp3	1,0,70 // boss
+0x91	0x91_1.mp3	0,0,70 // beast BGM
+0x92	0x92.mp3	0x20,0,70,0,800 // NameEntry
+0x93	0x93.mp3	0,0,70 // demo
+0x94	0x94_2.mp3	0,0,70 // stage 1,4
+0x95	0x95.mp3	0,0,70 // stage 2,5
+0x96	0x96.mp3	0,0,70 // stage 3
+0x97	0x97.mp3	0,0,70 // ending
+
+
+0xb2	0xb2.wav	0,3,180 // se
+0xb7	0xb7.wav	0,1,180 // Evil Appearing
+//0xc9	0xc9.wav	0,1,190 // dragon
+0xcd	0xcd.wav	0,1,140 // st.5 boss se
+0x43	0x43.wav	0,4,175 // snake
+
+//0xcb	dm.wav		0,1,0	// item
+//0x4c	0x4c_2.wav	0,20,200 // power vo
+
+0xb0	0xb0.wav	0,1,135 // crystal se

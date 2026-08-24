@@ -1,0 +1,15 @@
+#num file	flag[8bit](bit 1:loop 10:stop 20:fadeout 40:false 80:true)+[8bit]priority:0-255, channel:0-40(10-19:samples2vibration-LMotor,20-29:samples2vibration-RMotor,30-39:samples2vibration-BothMotor), volume(%), loop start(sample), loop length(sample), start position(sample)
+
+[default]
+0x00	data	0x80,0,0
+0x01	0x01.mp3	0,0,70	// bgm:advertise
+0x02	0x02.mp3	0,0,70	// bgm:st.2
+0x03	0x03.mp3	0,0,90	// bgm:st.4
+0x04	0x04.mp3	0,0,85	// bgm:st.3
+0x05	0x05.mp3	0,0,70	// bgm:st.1
+0x06	0x06.mp3	0,0,70	// bgm:game over
+0x08	0x08.mp3	0,0,70	// bgm:rank out
+0x09	0x09.mp3	0,0,70	// bgm:name entry
+0x0b	0x0b.mp3	0,0,70	// bgm:end
+0x0c	0x0c.mp3	0,0,70	// bgm:goal
+0x0e	0x0e.mp3	0,0,70	// bgm:start
