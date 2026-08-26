@@ -3,7 +3,8 @@
 // https://www.youtube.com/watch?v=b0bnwVtPu2I
 
 [default]
-0x00 data	0x90,0  // soud stop
+0x00	data	0x90	// soud stop
+0xf80	shifter.wav	0,10,100	// shifter switch
 
 0x85 OR0x85.ogg	0,0,120	// magical sound shower
 0x81 OR0x81.ogg	0,0,120	// passing  breeze
