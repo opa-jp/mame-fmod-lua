@@ -1,0 +1,34 @@
+[default]
+title	Double Impact Arrange Version
+0xf0	data	0xa0,0,2000	// sound off
+0xf4	data	0x80	// ?
+0xf5	data	0x80	// ?
+0xf7	data	0x90	// sound mute
+0xff	data	0x80	// 
+
+0x00	ms0x00.ogg	0,0,180	// bgm.boss.d2
+0x01	ms0x01.ogg	0,0,180	// bgm.floor.select
+0x02	ms0x02.ogg	1,0,180	0,3132046,347362	// bgm.st0.begin
+0x03	ms0x03.ogg	1,0,180	// bgm.round2
+0x04	ms0x04.ogg	1,0,180	582355,3895185	// bgm.round3
+0x05	ms0x05.ogg	1,0,180	// bgm.round4
+0x06	ms0x06.ogg	1,0,180	// bgm.round5
+0x07	ms0x07.ogg	1,0,180	// bgm.round6
+0x08	ms0x08.ogg	1,0,180	// bgm.round2.boss
+0x09	ms0x09.ogg	1,0,200	// bgm.round3.boss
+0x0a	ms0x0a.ogg	1,0,180	// bgm.round4.boss
+0x0b	ms0x0b.ogg	1,0,180	// bgm.round5.boss
+0x0c	ms0x0c.ogg	1,0,180	// bgm.boss.d1
+0x0d	ms0x0d.ogg	1,0,180	// bgm.st7
+0x0e	ms0x0e.ogg	1,0,180	// bgm.st11
+0x0f	ms0x0f.ogg	1,0,180	// bgm.st2
+0x10	ms0x10.ogg	1,0,180	38447,1601952	// bgm.st50
+0x11	ms0x11.ogg	0,0,180	// bgm.round.clear
+0x12	ms0x12.ogg	0,0,180	// bgm.ending
+0x13	ms0x13.ogg	0,0,180	// bgm.rank
+0x14	ms0x14.ogg	0,0,180	// bgm.gameover
+0x16	ms0x16.ogg	0,0,150	// bgm.stage.boss.demo
+0x17	ms0x17.ogg	0,0,180	// bgm.boss.clear
+0x1b	ms0x1b.ogg	0,0,180	// bgm.final.round.clear
+
+0x2a	ms0x2a.ogg	0,2,100	// voice.dragon
