@@ -1,0 +1,11 @@
+{
+	"plugin": {
+		"name": "custombutton",
+		"description": "Custom Button plugin",
+		"version": "0.1.0",
+		"author": "OpenAI",
+		"license": "BSD-3-Clause",
+		"type": "plugin",
+		"start": "true"
+	}
+}
